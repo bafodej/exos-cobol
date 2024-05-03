@@ -69,26 +69,26 @@
       ***** Afichage des ligne 3 et 7     
                EVALUATE TRUE
                    WHEN  WS-CPT = 3
-                     DISPLAY "ID-client" WS-ID-CLIENT,
-                             "Nom:" WS-TYPE-ASSU,
-                             "IRP:" WS-IRP,
-                             "REGIME" WS-REGIME,
-                             "Statut" WS-STATUT,
-                             "NUM CONTRAT" WS-NUM-CONTRAT,
-                             "NUM client" WS-NUM-CLIENT,
-                             "Montant payé" WS-MONTANT-PAYE
+                     DISPLAY "--ID-client :" WS-ID-CLIENT,
+                             "--Nom :" WS-TYPE-ASSU,
+                             "--IRP :" WS-IRP,
+                             "--REGIME :" WS-REGIME,
+                             "--Statut :" WS-STATUT,
+                             "--NUM CONTRAT :" WS-NUM-CONTRAT,
+                             "--NUM client :" WS-NUM-CLIENT,
+                             "--Montant payé :" WS-MONTANT-PAYE
 
                             
 
                   WHEN WS-CPT = 7
-                     DISPLAY "ID-client" WS-ID-CLIENT,
-                             "Nom:" WS-TYPE-ASSU,
-                             "IRP:" WS-IRP,
-                             "REGIME" WS-REGIME,
-                             "Statut" WS-STATUT,
-                             "NUMERO Contrat" WS-NUM-CONTRAT,
-                             "NUM client" WS-NUM-CLIENT,
-                             "Montant Payé" WS-MONTANT-PAYE
+                     DISPLAY "--ID-client :" WS-ID-CLIENT,
+                             "--Nom :" WS-TYPE-ASSU,
+                             "--IRP :" WS-IRP,
+                             "--REGIME :" WS-REGIME,
+                             "--Statut :" WS-STATUT,
+                             "--NUMERO Contrat :" WS-NUM-CONTRAT,
+                             "--NUM client :" WS-NUM-CLIENT,
+                             "--Montant Payé :" WS-MONTANT-PAYE
 
                     WHEN OTHER CONTINUE
               END-EVALUATE
