@@ -19,7 +19,7 @@
 
        01  WS-FORMAT REDEFINES WS-DATE.
            05 WS-FORMAT-DATE  PIC 9(8).
-           05 FILLER PIC X VALUE ':::'.
+           05 FILLER PIC X VALUE ':'.
            05 WS-FORMAT-HEURE PIC X(10).
 
            
