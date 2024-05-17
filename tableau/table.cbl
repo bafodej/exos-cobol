@@ -42,10 +42,10 @@
       
            
 
-      *            WS-ID     OF   WS-PERSO(I)
-      *            WS-CODE   OF   WS-PERSO(I)
-      *            WS-NOM    OF   WS-PERSO(I)
-      *            WS-POINT  OF   WS-PERSO(I)
+                  WS-ID     OF   WS-PERSO(I)
+                  WS-CODE   OF   WS-PERSO(I)
+                  WS-NOM    OF   WS-PERSO(I)
+                  WS-POINT  OF   WS-PERSO(I)
            
            END-PERFORM.
            
