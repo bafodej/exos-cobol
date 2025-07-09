@@ -13,43 +13,6 @@ Ce repository contient une collection d'exercices basiques pour découvrir et ap
 - Découvrir la gestion des fichiers
 - S'initier aux structures de contrôle (IF, PERFORM, etc.)
 
-## 📁 Structure du Repository
-
-```
-cobol-exercices/
-├── README.md
-├── exercices/
-│   ├── 01-hello-world/
-│   │   ├── hello.cob
-│   │   └── README.md
-│   ├── 02-variables/
-│   │   ├── variables.cob
-│   │   └── README.md
-│   ├── 03-calculs/
-│   │   ├── addition.cob
-│   │   ├── multiplication.cob
-│   │   └── README.md
-│   ├── 04-conditions/
-│   │   ├── if-else.cob
-│   │   └── README.md
-│   ├── 05-boucles/
-│   │   ├── perform-loop.cob
-│   │   └── README.md
-│   ├── 06-fichiers/
-│   │   ├── lecture-fichier.cob
-│   │   ├── ecriture-fichier.cob
-│   │   └── README.md
-│   └── 07-projets/
-│       ├── calculatrice.cob
-│       ├── gestion-stock.cob
-│       └── README.md
-├── docs/
-│   ├── syntaxe-cobol.md
-│   └── glossaire.md
-└── utils/
-    ├── compile.sh
-    └── setup.md
-```
 
 ## 🚀 Prérequis
 
